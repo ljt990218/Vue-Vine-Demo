@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vine'
+import { Title as VineTestTitie, Random as VineTestRandom } from './components/VineTest.vine'
 </script>
 
 <template>
@@ -11,7 +11,8 @@ import HelloWorld from './components/HelloWorld.vine'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
   </div>
-  <HelloWorld msg="Vite + Vue" />
+  <VineTestTitie msg="Vite + Vue + Vine" />
+  <VineTestRandom />
 </template>
 
 <style scoped>
