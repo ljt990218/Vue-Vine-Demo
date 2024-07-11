@@ -9,24 +9,24 @@ importers:
   .:
     dependencies:
       vue:
-        specifier: ^3.4.29
+        specifier: ^3.4.31
         version: 3.4.31(typescript@5.5.3)
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^5.0.5
         version: 5.0.5(vite@5.3.3)(vue@3.4.31(typescript@5.5.3))
       typescript:
-        specifier: ^5.2.2
+        specifier: ^5.5.3
         version: 5.5.3
       vite:
-        specifier: ^5.3.1
+        specifier: ^5.3.3
         version: 5.3.3
       vue-tsc:
-        specifier: ^2.0.21
+        specifier: ^2.0.26
         version: 2.0.26(typescript@5.5.3)
       vue-vine:
-        specifier: ^0.1.6
-        version: 0.1.6(vue@3.4.31(typescript@5.5.3))
+        specifier: ^0.1.8
+        version: 0.1.8(vue@3.4.31(typescript@5.5.3))
 
 packages:
 
@@ -185,8 +185,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@jridgewell/sourcemap-codec@1.4.15':
-    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
+  '@jridgewell/sourcemap-codec@1.5.0':
+    resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
   '@rollup/rollup-android-arm-eabi@4.18.1':
     resolution: {integrity: sha512-lncuC4aHicncmbORnx+dUaAgzee9cm/PbIqgWz1PpXuwc+sa1Ct83tnqUDy/GFKleLiN7ZIeytM6KJ4cAn1SxA==}
@@ -299,11 +299,11 @@ packages:
   '@volar/typescript@2.4.0-alpha.15':
     resolution: {integrity: sha512-U3StRBbDuxV6Woa4hvGS4kz3XcOzrWUKgFdEFN+ba1x3eaYg7+ytau8ul05xgA+UNGLXXsKur7fTUhDFyISk0w==}
 
-  '@vue-vine/compiler@0.1.6':
-    resolution: {integrity: sha512-3HPbgv/C9fiQGUOv//UBrFcneGdqOxLKB60li1zm2+6OPsKup8x/gsF0lSYjaM+YCmRT7w3Z082MumaB/P5J8A==}
+  '@vue-vine/compiler@0.1.8':
+    resolution: {integrity: sha512-lxEQMy/SBFwwTmi2jNihEn5dzBwp5FS8EvanDoVTIge0okMi0VKNLEo38I4yTiAURmhYq82zsL74/opGZw+Kjw==}
 
-  '@vue-vine/vite-plugin@0.1.6':
-    resolution: {integrity: sha512-vXr5tCu8XT8xAvJVDOT2NqMnSW0o9dS/JE5OJnZv5DaUSe+uAzqIASniW36oHPq+2VO4lKPPl3SzBnFpCeEoPg==}
+  '@vue-vine/vite-plugin@0.1.8':
+    resolution: {integrity: sha512-vzokrLA47kj+wK2RmAcGmDLvl/xNkjU7sYhxYH91PJAUGRWdnBQ2zBgo2nTyNa7mK8gAjfROlk2Od4I113qLAQ==}
 
   '@vue/compiler-core@3.4.31':
     resolution: {integrity: sha512-skOiodXWTV3DxfDhB4rOf3OGalpITLlgCeOwb+Y9GJpfQ8ErigdBUHomBzvG78JoVE8MJoQsb+qhZiHfKeNeEg==}
@@ -518,8 +518,8 @@ packages:
     peerDependencies:
       typescript: '>=5.0.0'
 
-  vue-vine@0.1.6:
-    resolution: {integrity: sha512-sdW+438KCwjFDCKqNOmqfo30a7KSenpmzRIFrXc6mfFcipTsSiC+P2xoMaH08Fn67jlTu+BidwLWl1yhnC7YEQ==}
+  vue-vine@0.1.8:
+    resolution: {integrity: sha512-Ji5F6zMCX3LNtiGjVCCzXO8BWGmSYewUWDpJbMAlyMHsQAyDL4MX93NxiTfVI6oHaC9F46lbEJDaxE8WADXZkA==}
 
   vue@3.4.31:
     resolution: {integrity: sha512-njqRrOy7W3YLAlVqSKpBebtZpDVg21FPoaq1I7f/+qqBThK9ChAIjkRWgeP6Eat+8C+iia4P3OYqpATP21BCoQ==}
@@ -614,7 +614,7 @@ snapshots:
   '@esbuild/win32-x64@0.21.5':
     optional: true
 
-  '@jridgewell/sourcemap-codec@1.4.15': {}
+  '@jridgewell/sourcemap-codec@1.5.0': {}
 
   '@rollup/rollup-android-arm-eabi@4.18.1':
     optional: true
@@ -685,7 +685,7 @@ snapshots:
       path-browserify: 1.0.1
       vscode-uri: 3.0.8
 
-  '@vue-vine/compiler@0.1.6':
+  '@vue-vine/compiler@0.1.8':
     dependencies:
       '@babel/parser': 7.24.7
       '@babel/types': 7.24.7
@@ -699,9 +699,9 @@ snapshots:
       postcss-selector-parser: 6.1.0
       source-map-js: 1.2.0
 
-  '@vue-vine/vite-plugin@0.1.6':
+  '@vue-vine/vite-plugin@0.1.8':
     dependencies:
-      '@vue-vine/compiler': 0.1.6
+      '@vue-vine/compiler': 0.1.8
 
   '@vue/compiler-core@3.4.31':
     dependencies:
@@ -853,7 +853,7 @@ snapshots:
 
   magic-string@0.30.10:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
 
   merge-source-map@1.1.0:
     dependencies:
@@ -942,9 +942,9 @@ snapshots:
       semver: 7.6.2
       typescript: 5.5.3
 
-  vue-vine@0.1.6(vue@3.4.31(typescript@5.5.3)):
+  vue-vine@0.1.8(vue@3.4.31(typescript@5.5.3)):
     dependencies:
-      '@vue-vine/vite-plugin': 0.1.6
+      '@vue-vine/vite-plugin': 0.1.8
       '@vueuse/core': 10.11.0(vue@3.4.31(typescript@5.5.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
